@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    background-color: #000;
+    color: #33ff33;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#terminal {
+    width: 80%;
+    max-width: 800px;
+    height: 70vh;
+    background-color: black;
+    border: 2px solid #33ff33;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: 0px 0px 10px #33ff33;
+}
+
+.prompt {
+    color: #33ff33;
+}
+
+input {
+    background: none;
+    border: none;
+    color: #33ff33;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+    width: 80%;
+}
+
+.cmd {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.blinking {
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+.light-theme {
+    background-color: white;
+    color: black;
+}
+
+.light-theme #terminal {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.light-theme .prompt {
+    color: blue;
+}
+.matrix-mode {
+    background-color: black !important;
+    color: #0F0 !important;
+    overflow: hidden;
+}
+
+#matrixCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.matrix-mode .prompt, 
+.matrix-mode .cmd, 
+.matrix-mode a {
+    color: #0F0 !important;
+}
+.prompt {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.cmd {
+    color: #ffcc00;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+pre {
+    color: #00ff00;
+    font-size: 14px;
+    font-family: monospace;
+}
+body {
+    margin: 0;
+    overflow: hidden; /* Prevents scrolling */
+    background: black;
+    color: #00ff00;
+    font-family: monospace;
+}
+
+#matrixCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Behind terminal */
+}
