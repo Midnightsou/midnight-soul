@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 `);
                 break;
             case "about":
-                printResponse("Hi! I'm a front-end developer who loves interactive websites and also a cyber security analyst who enjoys hacking.");
+                printResponse("Hi! I'm a front-end developer who loves interactive web apps and cybersecurity. I enjoy creating engaging user experiences and solving challenges in the digital world. My journey in tech is driven by curiosity and a passion for learning. Feel free to explore my projects and connect with me!");
                 break;
             case "projects":
                 printResponse(`
@@ -52,6 +52,11 @@ document.addEventListener("DOMContentLoaded", function () {
                         - <a href="https://midnightsou.github.io/quiz_app/" target="_blank">Quiz Web App</a><br>
                         - <a href="https://midnightsou.github.io/note-app/" target="_blank">Note Web App</a><br>
                         - <a href="https://github.com/Midnightsou/tic-tac-toe" target="_blank">Tic Tac Toe</a><br>
+                        - <a href="https://midnightsou.github.io/Islamic-_Quiz/" target="_blank">islamic quiz web app</a><br>
+                        - <a href="https://midnightsou.github.io/password-police--------/" target="_blank">Password police</a><br>
+                        - <a href="https://midnightsou.github.io/-can-ad/" target="_blank">Can AD</a><br>
+                        - <a href="https://midnightsou.github.io/portfolio/" target="_blank">My Portfolio</a><br>
+
                     </div>
                 `);
                 break;
@@ -69,8 +74,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 printResponse(`
                     <div>
                         <strong>My Skills:</strong><br>
-                        - 🚀 Front-end: HTML, CSS, JavaScript,<br>
-                        - 🔐 Cybersecurity: Ethical Hacking, Encryption, CTF Challenges<br>
+                        - 🚀 Front-end: HTML, CSS, JavaScript, React , python,<br>
+                        - 🔐 Cybersecurity: Ethical Hacking, Encryption, brute forcing, CTF Challenges<br>
                         - 🖥️ Other: vulnerability testing, Bash, Linux, Networking
                     </div>
                 `);
